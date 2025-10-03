@@ -12,7 +12,7 @@ import { PowerBIVisualEmbedComponent } from './components/powerbi-visual-embed/p
 import { PowerBICreateReportEmbedComponent } from './components/powerbi-create-report/powerbi-create-report.component';
 
 @NgModule({
-  declarations: [
+  imports: [
     PowerBIEmbedComponent,
     PowerBIDashboardEmbedComponent,
     PowerBIPaginatedReportEmbedComponent,
@@ -22,7 +22,6 @@ import { PowerBICreateReportEmbedComponent } from './components/powerbi-create-r
     PowerBIVisualEmbedComponent,
     PowerBICreateReportEmbedComponent
   ],
-  imports: [],
   exports: [
     PowerBIDashboardEmbedComponent,
     PowerBIPaginatedReportEmbedComponent,

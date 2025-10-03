@@ -11,10 +11,6 @@ describe('PowerBIPaginatedReportEmbedComponent', () => {
   let fixture: ComponentFixture<PowerBIPaginatedReportEmbedComponent>;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [PowerBIPaginatedReportEmbedComponent],
-    }).compileComponents();
-
     // Arrange
     fixture = TestBed.createComponent(PowerBIPaginatedReportEmbedComponent);
     component = fixture.componentInstance;

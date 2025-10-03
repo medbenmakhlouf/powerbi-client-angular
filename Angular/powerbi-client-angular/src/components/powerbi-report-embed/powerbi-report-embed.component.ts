@@ -12,6 +12,7 @@ import { isEmbedSetupValid } from '../../utils/utils';
 @Component({
   selector: 'powerbi-report[embedConfig]',
   template: '<div class={{cssClassName}} #reportContainer></div>',
+  standalone: true,
 })
 export class PowerBIReportEmbedComponent extends PowerBIEmbedComponent implements OnInit, OnChanges, AfterViewInit {
   // Input() specify properties that will be passed from parent

@@ -11,10 +11,6 @@ describe('PowerBITileEmbedComponent', () => {
   let fixture: ComponentFixture<PowerBITileEmbedComponent>;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [PowerBITileEmbedComponent],
-    }).compileComponents();
-
     // Arrange
     fixture = TestBed.createComponent(PowerBITileEmbedComponent);
     component = fixture.componentInstance;

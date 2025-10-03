@@ -10,10 +10,6 @@ describe('PowerBIEmbedComponent', () => {
   let fixture: ComponentFixture<PowerBIEmbedComponent>;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [PowerBIEmbedComponent],
-    }).compileComponents();
-
     fixture = TestBed.createComponent(PowerBIEmbedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

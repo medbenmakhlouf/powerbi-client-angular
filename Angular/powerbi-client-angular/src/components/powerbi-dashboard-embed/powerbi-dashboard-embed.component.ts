@@ -12,6 +12,7 @@ import { isEmbedSetupValid } from '../../utils/utils';
 @Component({
   selector: 'powerbi-dashboard[embedConfig]',
   template: '<div class={{cssClassName}} #dashboardContainer></div>',
+  standalone: true,
 })
 export class PowerBIDashboardEmbedComponent extends PowerBIEmbedComponent implements OnInit, OnChanges, AfterViewInit {
   // Input() specify properties that will be passed from parent

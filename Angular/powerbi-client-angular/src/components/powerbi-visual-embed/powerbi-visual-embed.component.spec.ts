@@ -12,10 +12,6 @@ describe('PowerBIVisualEmbedComponent', () => {
   let fixture: ComponentFixture<PowerBIVisualEmbedComponent>;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [PowerBIVisualEmbedComponent],
-    }).compileComponents();
-
     // Arrange
     fixture = TestBed.createComponent(PowerBIVisualEmbedComponent);
     component = fixture.componentInstance;

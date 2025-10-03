@@ -14,6 +14,7 @@ import { isEmbedSetupValid } from '../../utils/utils';
 @Component({
   selector: 'powerbi-create-report[embedConfig]',
   template: '<div class={{cssClassName}} #createReportContainer></div>',
+  standalone: true,
 })
 export class PowerBICreateReportEmbedComponent extends PowerBIEmbedComponent implements OnInit, OnChanges, AfterViewInit {
   // Configuration for embedding the PowerBI Create report (Required)

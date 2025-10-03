@@ -16,6 +16,7 @@ export type EventHandler = (event?: service.ICustomEvent<any>, embeddedEntity?: 
 @Component({
   selector: 'powerbi-embed',
   template: '',
+  standalone: true,
 })
 export class PowerBIEmbedComponent implements OnInit {
   // Power BI service instance to be used if user doesnt provide custom service

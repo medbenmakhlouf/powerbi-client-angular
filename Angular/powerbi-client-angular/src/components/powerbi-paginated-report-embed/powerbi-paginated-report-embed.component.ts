@@ -13,6 +13,7 @@ import { isEmbedSetupValid } from '../../utils/utils';
 @Component({
   selector: 'powerbi-paginated-report[embedConfig]',
   template: '<div class={{cssClassName}} #paginatedReportContainer></div>',
+  standalone: true,
 })
 export class PowerBIPaginatedReportEmbedComponent extends PowerBIEmbedComponent implements OnInit, OnChanges, AfterViewInit {
   // Input() specify properties that will be passed from parent

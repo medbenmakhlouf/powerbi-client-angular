@@ -11,10 +11,6 @@ describe('PowerBIQnaEmbedComponent', () => {
   let fixture: ComponentFixture<PowerBIQnaEmbedComponent>;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [PowerBIQnaEmbedComponent],
-    }).compileComponents();
-
     // Arrange
     fixture = TestBed.createComponent(PowerBIQnaEmbedComponent);
     component = fixture.componentInstance;

@@ -11,10 +11,6 @@ describe('PowerBIDashboardEmbedComponent', () => {
   let fixture: ComponentFixture<PowerBIDashboardEmbedComponent>;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [PowerBIDashboardEmbedComponent],
-    }).compileComponents();
-
     // Arrange
     fixture = TestBed.createComponent(PowerBIDashboardEmbedComponent);
     component = fixture.componentInstance;

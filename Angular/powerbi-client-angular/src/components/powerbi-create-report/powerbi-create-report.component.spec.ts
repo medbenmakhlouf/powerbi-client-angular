@@ -19,10 +19,6 @@ describe('PowerBICreateReportEmbedComponent', () => {
   };
 
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [PowerBICreateReportEmbedComponent],
-    }).compileComponents();
-
     // Arrange
     fixture = TestBed.createComponent(PowerBICreateReportEmbedComponent);
     component = fixture.componentInstance;
