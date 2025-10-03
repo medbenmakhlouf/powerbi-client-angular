@@ -19,6 +19,19 @@ import { PowerBIEmbedModule } from 'powerbi-client-angular';
 })
 ```
 
+### Standalone Import
+```ts
+import { PowerBIReportEmbedComponent } from 'powerbi-client-angular';
+
+@Component({
+  selector: 'my-component',
+  standalone: true,
+  imports: [PowerBIReportEmbedComponent],
+  template: `<powerbi-report />`,
+})
+export class MyComponent { }
+```
+
 ### Embed a Power BI report
 ```ts
 <powerbi-report
